@@ -51,9 +51,25 @@ button {
 
 button:hover {
   background-color: darkolivegreen;
+  transform: scale(1.1);
 }
 
 img {
   border-radius: 20px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  margin-bottom: 1em;
+}
+
+img:hover {
+  animation: zoom 0.1s linear forwards;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
 }

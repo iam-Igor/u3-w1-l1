@@ -9,6 +9,8 @@ function App() {
       <header className="App-header">
         <ButtonComponent buttonLabel="Cliccami!" />
         <ImageComponent imgSource="https://placedog.net/500" imgAlt="dogs" />
+        <ButtonComponent buttonLabel="Clicca anche me!" />
+        <ImageComponent imgSource="https://placedog.net/540" imgAlt="dogs" />
       </header>
     </div>
   );
